@@ -1,0 +1,128 @@
+.heart-shape{
+  		position: relative;
+  		width: 200px;
+  		height: 200px;
+  		 transform: rotate(45deg);
+ 		 background-color: red;
+		}
+	.heart-shape:before,
+	.heart-shape:after{
+ 		position: absolute;
+  		width: 200px;
+  		height: 200px;
+ 		 content: '';
+  		border-radius: 50%;
+  		background-color: red;
+		}	
+	.heart-shape:before{
+  		bottom: 0px;
+  		left: -100px;
+		}
+	.heart-shape:after{
+  		top: -100px;
+  		right: 0px;
+ 		}
+          #heart{
+		padding:200px;
+                position:absolute;
+		left:-100px;
+		right:740px;
+		top:-50px;
+		bottom:250px;
+		}
+	.trapezium {
+      		border-bottom: 100px solid maroon;
+     		border-left: 25px solid transparent;
+      		border-right: 25px solid transparent;
+      		height: 0;
+      		width: 100px;
+		 position:absolute;
+		left:50px;
+		right:740px;
+		top:750px;
+		bottom:250px;
+   		 }
+	
+    	.parallelogram {
+     		 width: 150px;
+      		 height: 100px;
+      		 transform: skew(-20deg);
+     		 background: lightgreen;
+		 position:absolute;
+		left:50px;
+		right:740;
+		top:500px;
+		bottom:250px;
+    }
+          .star {
+     		 margin: 50px 0;
+      		 position: relative;
+      		 display: block;
+      		 color: grey;
+     		 width: 0px;
+     		 height: 0px;
+     		 border-right: 100px solid transparent;
+     		 border-bottom: 70px solid grey;
+     		 border-left: 100px solid transparent;
+     		 transform: rotate(35deg);
+		 position:absolute;
+		left:50px;
+		right:740;
+		top:900px;
+		bottom:250px;
+    }
+    .star:before {
+     		 border-bottom: 80px solid skyblue;
+     		 border-left: 30px solid transparent;
+     		 border-right: 30px solid transparent;
+     		 position: absolute;
+     		 height: 0;
+     		 width: 0;
+     		 top: -45px;
+     		 left: -65px;
+     		 display: block;
+     		 content: '';
+     		 transform: rotate(-35deg);
+    		}
+    .star:after {
+      		position: absolute;
+      		display: block;
+      		color: red;
+      		top: 3px;
+     		left: -105px;
+     		width: 0px;
+      		height: 0px;
+     		border-right: 100px solid transparent;
+     		border-bottom: 70px solid purple;
+      		border-left: 100px solid transparent;
+     		transform: rotate(-70deg);
+      		content: '';
+    }
+	.star-six {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid blue;
+      position: relative;
+	 position:absolute;
+		left:50px;
+		right:740;
+		top:1200px;
+		bottom:250px;
+    }
+    .star-six:after {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid red;
+      position: absolute;
+      content: "";
+      top: 30px;
+      left: -50px;
+    }
+  
+  
+
+	
