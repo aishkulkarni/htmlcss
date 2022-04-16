@@ -1,0 +1,45 @@
+.abc{
+    float right;
+}
+img{
+	padding-right: 50px;
+	padding-top: 20px;
+}
+.bgimg1
+{
+    position: absolute;
+    top:-900%;
+    right:10%;
+    width:80%;
+    height:300px;
+    float:right;
+}
+.btn{
+	border-radius: 50px;
+}
+.section3
+{
+    position: absolute;
+    top:-900%;
+    right:10%;
+    width:80%;
+    height:800px;
+    float:right;
+	padding-top: 150px;
+}
+.section4{
+	padding:-200px;
+}
+.card {
+   background-image: url("intro-bg.png");
+   width:1530px;
+}
+.bg {
+   background-color: darkblue;
+}
+footer {
+   background-color: darkblue;
+}
+.color{
+	background-color: darkblue;
+}
